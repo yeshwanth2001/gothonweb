@@ -10,7 +10,7 @@ get '/' do
 end
 
 get '/hello/' do
-    erb :hello_form
+    erb :html_form
 end
 
 post '/hello/' do
